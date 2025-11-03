@@ -12,7 +12,7 @@ const Header = () => {
                 <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-3">
                         <div className="bg-white rounded-full p-2">
-                            {/* <svg
+                            <svg
                                 className="w-6 h-6 text-indigo-600"
                                 fill="none"
                                 stroke="currentColor"
@@ -24,7 +24,7 @@ const Header = () => {
                                     strokeWidth={2}
                                     d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
                                 />
-                            </svg> */}
+                            </svg>
                         </div>
                         <div>
                             <h1 className="text-xl md:text-2xl font-bold">Train Passenger List</h1>
@@ -32,7 +32,7 @@ const Header = () => {
                         </div>
                     </div>
 
-                    {/* {!isHome && (
+                    {!isHome && (
                         <button
                             onClick={() => navigate('/')}
                             className="bg-white text-indigo-600 px-4 py-2 rounded-lg font-semibold hover:bg-indigo-50 transition-colors flex items-center space-x-2"
@@ -52,7 +52,7 @@ const Header = () => {
                             </svg>
                             <span className="hidden sm:inline">Home</span>
                         </button>
-                    )} */}
+                    )}
                 </div>
             </div>
         </header>
